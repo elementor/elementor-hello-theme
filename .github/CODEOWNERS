@@ -1,0 +1,33 @@
+# Default
+*														@kingyes
+*.js													@kobizz
+*.php													@matipojo
+
+# Assets
+/assets													@kobizz
+/assets/lib												@kingyes
+
+# Tools
+/bin													@kingyes
+/Gruntfile.js											@kingyes
+/.grunt-config											@kingyes
+
+# Core
+/base													@matipojo @kobizz
+/classes												@matipojo @kobizz
+/core													@matipojo @kobizz
+/includes												@matipojo @kobizz
+
+# License
+/license												@kingyes
+
+# Modules
+/modules                                                @matipojo @kobizz
+/modules/gallery                                        @kobizz
+/modules/slides                                         @kobizz
+/modules/table-of-contents                              @kobizz
+/modules/theme-builder                                  @matipojo
+/modules/usage                                          @matipojo
+
+# Tests
+/tests													@kingyes @matipojo

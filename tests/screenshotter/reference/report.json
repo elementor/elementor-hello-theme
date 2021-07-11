@@ -1,0 +1,552 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../reference/buttons_phone.png",
+        "test": "../bitmaps_test/20210214-162747/buttons_phone.png",
+        "selector": "document",
+        "fileName": "buttons_phone.png",
+        "label": "buttons",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/buttons",
+        "referenceUrl": "http://localhost:8080/buttons",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.87",
+          "analysisTime": 76
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_buttons_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/buttons_tablet.png",
+        "test": "../bitmaps_test/20210214-162747/buttons_tablet.png",
+        "selector": "document",
+        "fileName": "buttons_tablet.png",
+        "label": "buttons",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/buttons",
+        "referenceUrl": "http://localhost:8080/buttons",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.66",
+          "analysisTime": 91
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_buttons_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/buttons_desktop.png",
+        "test": "../bitmaps_test/20210214-162747/buttons_desktop.png",
+        "selector": "document",
+        "fileName": "buttons_desktop.png",
+        "label": "buttons",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/buttons",
+        "referenceUrl": "http://localhost:8080/buttons",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.49",
+          "analysisTime": 115
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_buttons_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/dividers_phone.png",
+        "test": "../bitmaps_test/20210214-162747/dividers_phone.png",
+        "selector": "document",
+        "fileName": "dividers_phone.png",
+        "label": "dividers",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/dividers",
+        "referenceUrl": "http://localhost:8080/dividers",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.71",
+          "analysisTime": 67
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_dividers_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/dividers_tablet.png",
+        "test": "../bitmaps_test/20210214-162747/dividers_tablet.png",
+        "selector": "document",
+        "fileName": "dividers_tablet.png",
+        "label": "dividers",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/dividers",
+        "referenceUrl": "http://localhost:8080/dividers",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.53",
+          "analysisTime": 89
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_dividers_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/dividers_desktop.png",
+        "test": "../bitmaps_test/20210214-162747/dividers_desktop.png",
+        "selector": "document",
+        "fileName": "dividers_desktop.png",
+        "label": "dividers",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/dividers",
+        "referenceUrl": "http://localhost:8080/dividers",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.40",
+          "analysisTime": 109
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_dividers_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/global-settings_phone.png",
+        "test": "../bitmaps_test/20210214-162747/global-settings_phone.png",
+        "selector": "document",
+        "fileName": "global-settings_phone.png",
+        "label": "global-settings",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/global-settings",
+        "referenceUrl": "http://localhost:8080/global-settings",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "1.92",
+          "analysisTime": 45
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_global-settings_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/global-settings_tablet.png",
+        "test": "../bitmaps_test/20210214-162747/global-settings_tablet.png",
+        "selector": "document",
+        "fileName": "global-settings_tablet.png",
+        "label": "global-settings",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/global-settings",
+        "referenceUrl": "http://localhost:8080/global-settings",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "1.43",
+          "analysisTime": 53
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_global-settings_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/global-settings_desktop.png",
+        "test": "../bitmaps_test/20210214-162747/global-settings_desktop.png",
+        "selector": "document",
+        "fileName": "global-settings_desktop.png",
+        "label": "global-settings",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/global-settings",
+        "referenceUrl": "http://localhost:8080/global-settings",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "1.07",
+          "analysisTime": 66
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_global-settings_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/headings_phone.png",
+        "test": "../bitmaps_test/20210214-162747/headings_phone.png",
+        "selector": "document",
+        "fileName": "headings_phone.png",
+        "label": "headings",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/headings",
+        "referenceUrl": "http://localhost:8080/headings",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "3.42",
+          "analysisTime": 49
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_headings_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/headings_tablet.png",
+        "test": "../bitmaps_test/20210214-162747/headings_tablet.png",
+        "selector": "document",
+        "fileName": "headings_tablet.png",
+        "label": "headings",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/headings",
+        "referenceUrl": "http://localhost:8080/headings",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "3.44",
+          "analysisTime": 57
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_headings_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/headings_desktop.png",
+        "test": "../bitmaps_test/20210214-162747/headings_desktop.png",
+        "selector": "document",
+        "fileName": "headings_desktop.png",
+        "label": "headings",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/headings",
+        "referenceUrl": "http://localhost:8080/headings",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "1.63",
+          "analysisTime": 67
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_headings_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/image_phone.png",
+        "test": "../bitmaps_test/20210214-162747/image_phone.png",
+        "selector": "document",
+        "fileName": "image_phone.png",
+        "label": "image",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/image",
+        "referenceUrl": "http://localhost:8080/image",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "21.57",
+          "analysisTime": 57
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_image_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/image_tablet.png",
+        "test": "../bitmaps_test/20210214-162747/image_tablet.png",
+        "selector": "document",
+        "fileName": "image_tablet.png",
+        "label": "image",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/image",
+        "referenceUrl": "http://localhost:8080/image",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "17.38",
+          "analysisTime": 66
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_image_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/image_desktop.png",
+        "test": "../bitmaps_test/20210214-162747/image_desktop.png",
+        "selector": "document",
+        "fileName": "image_desktop.png",
+        "label": "image",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/image",
+        "referenceUrl": "http://localhost:8080/image",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "13.03",
+          "analysisTime": 74
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_image_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/testimonials_phone.png",
+        "test": "../bitmaps_test/20210214-162747/testimonials_phone.png",
+        "selector": "document",
+        "fileName": "testimonials_phone.png",
+        "label": "testimonials",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/testimonials",
+        "referenceUrl": "http://localhost:8080/testimonials",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -20
+          },
+          "misMatchPercentage": "6.26",
+          "analysisTime": 76
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_testimonials_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/testimonials_tablet.png",
+        "test": "../bitmaps_test/20210214-162747/testimonials_tablet.png",
+        "selector": "document",
+        "fileName": "testimonials_tablet.png",
+        "label": "testimonials",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/testimonials",
+        "referenceUrl": "http://localhost:8080/testimonials",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -20
+          },
+          "misMatchPercentage": "5.61",
+          "analysisTime": 82
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_testimonials_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/testimonials_desktop.png",
+        "test": "../bitmaps_test/20210214-162747/testimonials_desktop.png",
+        "selector": "document",
+        "fileName": "testimonials_desktop.png",
+        "label": "testimonials",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/testimonials",
+        "referenceUrl": "http://localhost:8080/testimonials",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -20
+          },
+          "misMatchPercentage": "4.51",
+          "analysisTime": 94
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_testimonials_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/text-editor_phone.png",
+        "test": "../bitmaps_test/20210214-162747/text-editor_phone.png",
+        "selector": "document",
+        "fileName": "text-editor_phone.png",
+        "label": "text-editor",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/text-editor",
+        "referenceUrl": "http://localhost:8080/text-editor",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "3.87",
+          "analysisTime": 49
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_text-editor_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/text-editor_tablet.png",
+        "test": "../bitmaps_test/20210214-162747/text-editor_tablet.png",
+        "selector": "document",
+        "fileName": "text-editor_tablet.png",
+        "label": "text-editor",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/text-editor",
+        "referenceUrl": "http://localhost:8080/text-editor",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "3.12",
+          "analysisTime": 61
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_text-editor_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../reference/text-editor_desktop.png",
+        "test": "../bitmaps_test/20210214-162747/text-editor_desktop.png",
+        "selector": "document",
+        "fileName": "text-editor_desktop.png",
+        "label": "text-editor",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "http://localhost:8080/text-editor",
+        "referenceUrl": "http://localhost:8080/text-editor",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "2.32",
+          "analysisTime": 78
+        },
+        "diffImage": "../bitmaps_test/20210214-162747/failed_diff_text-editor_desktop.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "elementor_screenshotter"
+}
